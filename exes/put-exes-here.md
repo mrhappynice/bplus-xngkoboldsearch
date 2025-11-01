@@ -1,0 +1,2 @@
+- put koboldcpp and bplus-search executables here with node_modules and a blank.db
+- node_modules - all needed parts for better-sqlite3
