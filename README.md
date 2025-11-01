@@ -1,5 +1,8 @@
-# bplus🤷🏻‍♂️ XNGkoboldsearch
+# bplus🤷🏻‍♂️ XNGkoboldsearch for amd/intel
+---
+For CUDA/Nvidia check out: [CUDA build](https://hub.docker.com/repository/docker/mrhappynice/bplus-xngkoboldsearch-cuda/general)
 
+Run in seconds on Runpod.io: [CUDA template](https://console.runpod.io/deploy?template=iysy5dw0ms&ref=7sw7ziod)
 --- 
 Private local search with SearXNG, Custom bplus-search app(search without MCP), and Koboldcpp to run any models in the single container. Vulkan backend, this script ready for AMD/Intel with Vulkan drivers installed. 
 
@@ -29,10 +32,9 @@ docker run --name xngkoboldsearch-cont -d \
 
 ```
 
-- add your keys and Koboldcpp/llama.cpp compatible gguf in the MODEL_URL e-var, from huggingface with the quant as shown
+- add your keys and Koboldcpp/llama.cpp compatible gguf in the MODEL_URL e-var, from huggingface, etc.
 
 - using:
   - [Llama.cpp](https://github.com/ggml-org/llama.cpp/releases/tag/b6912)
   - [bplus-search](https://github.com/mrhappynice/bplus-search)
   - [SearXNG](https://github.com/searxng/searxng)
-
